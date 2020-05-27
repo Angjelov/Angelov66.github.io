@@ -1,0 +1,231 @@
+body	{
+	background-image: url(file:///C:/Users/Bojan/Downloads/ba.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: Roboto;
+}
+
+.heading1{
+	text-align: center;
+	padding-top: 10%;
+	font-size: 64px;
+}
+
+.heading2	{
+	text-align: center;
+	font-size: 32px;
+}
+
+
+.lay {
+	color: #d72323;
+	font-weight: 600;
+}
+
+ul li a {
+	font-size: 20px;
+}
+
+ul li a:hover {
+  color:#f2f2f2  !important;
+  background-color: #d72323 !important;
+}
+
+
+
+.pulse-button {
+
+  position: relative;
+  border: none;
+  box-shadow: 0 0 0 0 rgba(232, 76, 61, 0.7);
+  border-radius: 50%;
+  background-color: #d72323;
+  background-size:cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  -webkit-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  -moz-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  -ms-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+}
+.pulse-button:hover 
+{
+  -webkit-animation: none;-moz-animation: none;-ms-animation: none;animation: none;
+}
+
+@-webkit-keyframes pulse {to {box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);}}
+@-moz-keyframes pulse {to {box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);}}
+@-ms-keyframes pulse {to {box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);}}
+@keyframes pulse {to {box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);}}
+
+
+
+#Aboutme{
+	margin-top: 40%;
+	background-color:#f2f2f2;
+
+	}
+.text-about{
+	
+	text-align: center;
+	 
+	font-weight: 900;
+}
+
+
+.text-about1{
+	text-align: center;	
+	font-weight: 600;
+}
+
+
+.active{
+	border-bottom: 3px solid #d72323;
+}
+
+.scale-up-center {
+	-webkit-animation: scale-up-center 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-center 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+
+@-webkit-keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+@keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+.section {
+    padding: 100px 0;
+}
+
+
+.gray-bg {
+    background-color: #eaedf2;
+}
+
+.text-about2{
+
+	text-align: center;
+	font-weight: 900;
+
+}
+
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {   
+  border-color: #d72323;
+  box-shadow: 0 3px 3px  #d72323;
+  outline: 0 none;
+}
+
+.form-control:focus {
+    color:#eaedf2  ;
+    background-color: #fff;
+    border-color: #d72323 !important;
+    outline: 0;
+    box-shadow: 0 3px 3px #d72323 !important;
+}
+
+
+footer {
+	background-color: black;
+}
+
+.fa-facebook{
+	font-size: 24px;
+	padding: 20px;
+	color: #d72323;
+}
+.fa-instagram{
+	font-size: 24px;
+	padding: 20px;
+	color: #d72323;
+
+}
+.fa-linkedin{
+	font-size: 24px;
+	padding: 20px;
+	color: #d72323;
+
+}
+
+.fa-twitter-square{
+	font-size: 24px;
+	padding: 20px;
+	color: #d72323;
+
+}
+
+.footer{
+	color: #d72323;
+	font-weight: 600;
+	float: right;
+	padding: 20px;
+}	
+
+.obama{
+	width: 352px;
+	height: 371px;
+	float: left;
+	margin-top: 30%;
+	max-width: 100%;
+	border: 10px solid #d72323;
+	border-radius: 5px;
+}
+#qa{
+	padding-top: 4%;
+}
+#BA{
+	padding-top: 10%;
+}
+#WD{
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.info{
+	font-weight: 700;
+	border-bottom: 3px solid #d72323;
+	padding-bottom: 5%;
+
+}
+
+.info2{
+	padding-top: 5%;
+}
+#BA1{
+	color: #d72323;
+}
+#WD1{
+	color: #d72323;
+}
