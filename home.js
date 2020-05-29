@@ -41,11 +41,7 @@ window.addEventListener("scroll", event => {
   });
 });
 
-window.onload = (event) => {
-     setTimeout(() => {
-        document.getElementById("loading").style.display = "none"; 
-    }, 3000);    
-  }; 
+
 
 
   // var secAbout = document.getElementById("Aboutme1");
