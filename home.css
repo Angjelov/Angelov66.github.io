@@ -1,9 +1,9 @@
 body	{
-	background-image: url(file:///C:/Users/Bojan/Downloads/ba.png);
+	
 	background-repeat: no-repeat;
 	background-size: cover;
 	font-family: Roboto;
-	background-color: black;
+	background-color: black !important;
 }
 
 .heading1{
