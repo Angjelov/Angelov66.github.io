@@ -257,9 +257,13 @@ footer {
 
 .Unique-design{
 	background-color: #f2f2f2;
-	padding: 15px;
+	padding: 5px;
 	margin-top: 15%;
 	border-radius: 10%;
+	text-align: center;
+	width: 250px;
+	height: 200px;
+	margin-left: 20%;
 }
 
 .Unique-design:hover{
@@ -297,9 +301,13 @@ footer {
 
 .Different-Layout{
 	background-color: #f2f2f2;
-	padding: 15px;
+	padding: 5px;
 	margin-top: 15%;
 	border-radius: 10%;
+	text-align: center;
+	width: 250px;
+	height: 200px;
+	margin-left: 20%;
 }
 
 .Different-Layout:hover{
@@ -331,9 +339,13 @@ footer {
 
 .Responsive{
 		background-color: #f2f2f2;
-	padding: 15px;
+	padding: 5px;
 	margin-top: 15%;
 	border-radius: 10%;
+	text-align: center;
+	width: 250px;
+	height: 200px;
+	margin-left: 20%;
 }
 
 .Responsive:hover{
@@ -346,7 +358,7 @@ footer {
 
 }
 
-.fa-comment-dots{
+.fa-tachometer-alt{
 	font-size: 40px;
 	margin-bottom: 5%;
 	border:3px dashed #d72323 ;
@@ -354,7 +366,7 @@ footer {
 	padding: 20px;
 }
 
-.fa-comment-dots:hover{
+.fa-tachometer-alt:hover{
 	font-size: 40px;
 	margin-bottom: 5%;
 	border:3px dashed #f2f2f2 ;
@@ -364,9 +376,13 @@ footer {
 
 .Make-it-Simple{
 	background-color: #f2f2f2;
-	padding: 15px;
+	padding: 5px;
 	margin-top: 15%;
 	border-radius: 10%;
+	text-align: center;
+	width: 250px;
+	height: 200px;
+	margin-left: 20%;
 }
 
 .Make-it-Simple:hover{
