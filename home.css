@@ -61,7 +61,7 @@ ul li a:hover {
 
 
 
-#Aboutme{
+#AboutMe{
 	margin-top: 40%;
 	background-color:#f2f2f2;
 
@@ -127,6 +127,13 @@ ul li a:hover {
 
 }
 
+.text-about4{
+	margin-top: 10%;
+	text-align: center;
+	font-weight: 900;
+
+}
+
 
 textarea:focus,
 input[type="text"]:focus,
@@ -187,11 +194,11 @@ footer {
 
 }
 
-.footer{
+.footer-text{
 	color: #d72323;
 	font-weight: 900;
 	text-align: center;
-	padding: 20px;
+	
 }	
 
 .obama{
@@ -263,7 +270,7 @@ footer {
 	text-align: center;
 	width: 250px;
 	height: 200px;
-	margin-left: 20%;
+	margin-left: 13%;
 }
 
 .Unique-design:hover{
@@ -271,8 +278,7 @@ footer {
 	padding: 15px;
 	margin-top: 15%;
 	color: #f2f2f2;
-	-webkit-animation: shadow-pop-tr 0.3s cubic-bezier(0.680, -0.550, 0.265, 1.550) both;
-	        animation: shadow-pop-tr 0.3s cubic-bezier(0.680, -0.550, 0.265, 1.550) both;
+	
 
 }
 
@@ -307,7 +313,7 @@ footer {
 	text-align: center;
 	width: 250px;
 	height: 200px;
-	margin-left: 20%;
+	margin-left: 13%;
 }
 
 .Different-Layout:hover{
@@ -315,12 +321,11 @@ footer {
 	padding: 15px;
 	margin-top: 15%;
 	color: #f2f2f2;
-	-webkit-animation: shadow-pop-tr 0.3s cubic-bezier(0.680, -0.550, 0.265, 1.550) both;
-	        animation: shadow-pop-tr 0.3s cubic-bezier(0.680, -0.550, 0.265, 1.550) both;
+	
 
 }
 
-.fa-mobile{
+.fa-laptop-code{
 	font-size: 40px;
 	margin-bottom: 5%;
 	border:3px dashed #d72323 ;
@@ -328,7 +333,7 @@ footer {
 	padding: 20px;
 }
 
-.fa-mobile:hover{
+.fa-laptop-code:hover{
 	font-size: 40px;
 	margin-bottom: 5%;
 	border:3px dashed #f2f2f2 ;
@@ -345,7 +350,7 @@ footer {
 	text-align: center;
 	width: 250px;
 	height: 200px;
-	margin-left: 20%;
+	margin-left: 13%;
 }
 
 .Responsive:hover{
@@ -353,8 +358,7 @@ footer {
 	padding: 15px;
 	margin-top: 15%;
 	color: #f2f2f2;
-	-webkit-animation: shadow-pop-tr 0.3s cubic-bezier(0.680, -0.550, 0.265, 1.550) both;
-	        animation: shadow-pop-tr 0.3s cubic-bezier(0.680, -0.550, 0.265, 1.550) both;
+	
 
 }
 
@@ -382,7 +386,8 @@ footer {
 	text-align: center;
 	width: 250px;
 	height: 200px;
-	margin-left: 20%;
+	margin-left: 13%;
+	
 }
 
 .Make-it-Simple:hover{
@@ -390,40 +395,12 @@ footer {
 	padding: 15px;
 	margin-top: 15%;
 	color: #f2f2f2;
-	-webkit-animation: shadow-pop-tr 0.3s cubic-bezier(0.680, -0.550, 0.265, 1.550) both;
-	        animation: shadow-pop-tr 0.3s cubic-bezier(0.680, -0.550, 0.265, 1.550) both;
+	
 
 }
 
 
-@-webkit-keyframes shadow-pop-tr {
-  0% {
-    -webkit-box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
-            box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
-    -webkit-transform: translateX(0) translateY(0);
-            transform: translateX(0) translateY(0);
-  }
-  100% {
-    -webkit-box-shadow: 1px -1px #3e3e3e, 2px -2px #3e3e3e, 3px -3px #3e3e3e, 4px -4px #3e3e3e, 5px -5px #3e3e3e, 6px -6px #3e3e3e, 7px -7px #3e3e3e, 8px -8px #3e3e3e;
-            box-shadow: 1px -1px #3e3e3e, 2px -2px #3e3e3e, 3px -3px #3e3e3e, 4px -4px #3e3e3e, 5px -5px #3e3e3e, 6px -6px #3e3e3e, 7px -7px #3e3e3e, 8px -8px #3e3e3e;
-    -webkit-transform: translateX(-8px) translateY(8px);
-            transform: translateX(-8px) translateY(8px);
-  }
-}
-@keyframes shadow-pop-tr {
-  0% {
-    -webkit-box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
-            box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
-    -webkit-transform: translateX(0) translateY(0);
-            transform: translateX(0) translateY(0);
-  }
-  100% {
-    -webkit-box-shadow: 1px -1px #3e3e3e, 2px -2px #3e3e3e, 3px -3px #3e3e3e, 4px -4px #3e3e3e, 5px -5px #3e3e3e, 6px -6px #3e3e3e, 7px -7px #3e3e3e, 8px -8px #3e3e3e;
-            box-shadow: 1px -1px #3e3e3e, 2px -2px #3e3e3e, 3px -3px #3e3e3e, 4px -4px #3e3e3e, 5px -5px #3e3e3e, 6px -6px #3e3e3e, 7px -7px #3e3e3e, 8px -8px #3e3e3e;
-    -webkit-transform: translateX(-8px) translateY(8px);
-            transform: translateX(-8px) translateY(8px);
-  }
-}
+
 
 #project1{
 	padding-left: 5%;
@@ -490,3 +467,19 @@ footer {
   font-weight: 900;
 }
 
+.row{
+	margin-left: 0px !important;
+	margin-right: 0px !important;
+}
+
+.button-contactme{
+	background-color: #d72323 !important;
+}
+
+.button-home{
+	background-color: #d72323 !important;
+	 margin-top: 5% !important;
+}
+#Portfolio{
+	background-color: white !important;
+}

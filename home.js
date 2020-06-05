@@ -1,5 +1,5 @@
 
-
+/////////////////////////////// ADDING CLASSES ON CHOSEN OPTION ///////////////////////////////
 
 (function (){
     for (const link of document.querySelectorAll('#navbarText>ul>li>a')) {
@@ -9,11 +9,11 @@
 
 function setActiveState(){
     for (const link of document.querySelectorAll('#navbarText>ul>li>a')) {
-        //link.parentElement.classList = "nav-item";
+       
         link.parentElement.classList.remove("active");
     }
 
-    //this.parentElement.classList = "nav-item active";
+   
     this.parentElement.classList.add("active");
 }
 
@@ -41,41 +41,15 @@ window.addEventListener("scroll", event => {
   });
 });
 
+/////////////////////////////// ADDING CLASSES ON CHOSEN OPTION ///////////////////////////////
 
 
-
-  // var secAbout = document.getElementById("Aboutme1");
-  // secAbout.addEventListener("click",function(){
-  //   const elment=document.querySelector('#Aboutme');
-  //   elment.classList.add('animate__animated', 'animate__fadeInDown');
-  //   animateCSS('#Aboutme', 'fadeInDown');
-  // });
-
-  // var secAbout = document.getElementById("HOME1");
-  // secAbout.addEventListener("click",function(){
-  //   const elment=document.querySelector('#HOME');
-  //   elment.classList.add('animate__animated', 'animate__fadeInDown');
-  //   animateCSS('#Aboutme', 'fadeInDown');
-  // });
-
-  // var secAbout = document.getElementById("Service1");
-  // secAbout.addEventListener("click",function(){
-  //   const elment=document.querySelector('#Service1');
-  //   elment.classList.add('animate__animated', 'animate__fadeInDown');
-  //   animateCSS('#Aboutme', 'fadeInDown');
-  // });
-
-
-  // var secAbout = document.getElementById("Aboutme1");
-  // secAbout.addEventListener("click",function(){
-  //   const elment=document.querySelector('#Aboutme');
-  //   elment.classList.add('animate__animated', 'animate__fadeInDown');
-  //   animateCSS('#Aboutme', 'fadeInDown');
-  // });
-
-  // var secAbout = document.getElementById("Aboutme1");
-  // secAbout.addEventListener("click",function(){
-  //   const elment=document.querySelector('#Aboutme');
-  //   elment.classList.add('animate__animated', 'animate__fadeInDown');
-  //   animateCSS('#Aboutme', 'fadeInDown');
-  // });
+   
+////////////////////////////// MENU COLLAPSE ON CLICK (BOOTSTRAP) //////////////////////////////
+    $(function(){ 
+     var navMain = $(".navbar-collapse"); 
+     navMain.on("click", "a:not([data-toggle])", null, function () {
+         navMain.collapse('hide');
+     });
+ });
+////////////////////////////// MENU COLLAPSE ON CLICK (BOOTSTRAP) //////////////////////////////
